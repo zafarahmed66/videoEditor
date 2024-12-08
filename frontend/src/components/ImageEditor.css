@@ -1,0 +1,39 @@
+/* ImageEditor.css */
+
+.image-editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.toolbar {
+    margin-bottom: 10px;
+}
+
+.toolbar button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.konva-stage {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.text-input {
+    margin-top: 10px;
+}
+
+.text-input label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.text-input input {
+    padding: 4px 8px;
+    font-size: 14px;
+    width: 200px;
+}
